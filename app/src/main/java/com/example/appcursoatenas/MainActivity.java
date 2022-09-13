@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
             double alturaConvertido = Double.parseDouble(altura.getText().toString());
 
             double altura2 = alturaConvertido * alturaConvertido;
-            double imc = pesoConvertido / altura2;
+            double alturaCm = altura2 / 10000;
+            double imc = pesoConvertido / alturaCm;
 
             String resultadoFormatado = String.format("%.2f", imc);
 

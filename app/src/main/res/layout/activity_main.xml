@@ -7,38 +7,29 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="190dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/user"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextPeso"
         android:layout_width="314dp"
         android:layout_height="47dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_color"
         android:ems="10"
-        android:hint="Peso"
+        android:hint="   Peso em kg"
         android:inputType="number"
         android:textColorHint="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintEnd_toEndOf="@+id/title_interface"
+        app:layout_constraintStart_toStartOf="@+id/title_interface"
+        app:layout_constraintTop_toBottomOf="@+id/title_interface" />
 
     <EditText
         android:id="@+id/editTextAltura"
         android:layout_width="314dp"
         android:layout_height="47dp"
+        android:background="@drawable/border_color"
         android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="Altura"
+        android:hint="   Altura em cm"
         android:textColorHint="@color/black"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="@+id/editTextPeso"
@@ -48,12 +39,12 @@
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="314dp"
-        android:layout_height="72dp"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_corner"
         android:gravity="center"
         android:hint="RESULTADO"
-        android:background="@color/black"
         android:textColorHint="@color/white"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="@+id/calcular"
@@ -62,8 +53,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/calcular"
-        android:layout_width="301dp"
-        android:layout_height="55dp"
+        android:layout_width="306dp"
+        android:layout_height="62dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_calcular_shape"
         android:text="CALCULAR"
@@ -85,5 +76,21 @@
         app:layout_constraintEnd_toEndOf="@+id/result"
         app:layout_constraintStart_toStartOf="@+id/result"
         app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <TextView
+        android:id="@+id/title_interface"
+        android:layout_width="377dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="CALCULADORA IMC"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

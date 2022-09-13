@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/werik/AndroidStudioProjects/AppCursoAtenas/app/src/main/res/drawable/bg_rounded_corner.xml" value="0.1745" />
+        <entry key="..\:/Users/werik/AndroidStudioProjects/AppCursoAtenas/app/src/main/res/drawable/border_color.xml" value="0.1745" />
         <entry key="..\:/Users/werik/AndroidStudioProjects/AppCursoAtenas/app/src/main/res/drawable/btn_calcular_shape.xml" value="0.164" />
-        <entry key="..\:/Users/werik/AndroidStudioProjects/AppCursoAtenas/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/werik/AndroidStudioProjects/AppCursoAtenas/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
